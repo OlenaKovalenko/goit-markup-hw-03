@@ -225,16 +225,35 @@ img {
 .advantages-item {
 }
 
+.work-list {
+  display: flex;
+  gap: 24px;
+}
+
 /**==============SECTION OUR TEAM =============*/
 
 .team {
   background-color: var(--team-background-color);
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .team-item {
   background-color: var(--primary-white-color);
   width: 264px;
   height: 380px;
+}
+
+.team-list .section-subtitle {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.team-list .section-text {
+  text-align: center;
 }
 
 /** FOOTER */
@@ -252,6 +271,11 @@ img {
 .footer-text {
   color: var(--light-cloud-color);
   width: 264px;
+}
+
+.footer .logotype {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* *================PORTFOLIO ===============*/
