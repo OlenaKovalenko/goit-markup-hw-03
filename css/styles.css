@@ -33,6 +33,13 @@ ul {
   padding: 0;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .list {
   list-style: none;
 }
