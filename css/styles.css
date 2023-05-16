@@ -102,6 +102,9 @@ img {
 }
 
 .header-page {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -238,6 +241,8 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -246,6 +251,7 @@ img {
 
 .footer-text {
   color: var(--light-cloud-color);
+  width: 264px;
 }
 
 /* *================PORTFOLIO ===============*/
