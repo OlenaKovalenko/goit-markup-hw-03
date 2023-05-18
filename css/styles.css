@@ -244,7 +244,7 @@ img {
 }
 
 .advantages-item {
-  flex-basis: calc((100%-24 * 3) / 4);
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 
 /** ===============SECTION OUR WORK=============*/
@@ -255,7 +255,7 @@ img {
 }
 
 .work-item {
-  flex-basis: calc((100%-2 * 24) / 3);
+  flex-basis: calc((100%-2 * 24px) / 3);
 }
 
 /**==============SECTION OUR TEAM =============*/
@@ -273,7 +273,7 @@ img {
 
 .team-item {
   background-color: var(--primary-white-color);
-  width: calc((100%-24 * 3) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 
 /* .team-list .section-subtitle {
@@ -339,4 +339,25 @@ img {
 .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/**================ GALLERY CARDS LIST======================= */
+
+.portfolio-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-cards-item {
+  flex-basis: calc((100%-2 * 24px) / 3);
+}
+
+.portfolio-cards-link {
+  display: block;
+}
+
+.portfolio-cards-list img {
+  display: block;
 }
