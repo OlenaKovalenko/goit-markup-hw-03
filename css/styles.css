@@ -317,13 +317,24 @@ img {
 
 /* *================PORTFOLIO ===============*/
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .portfolio-btn-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
 }
 
 .portfolio-btn-item {
 }
 
 .portfolio-button {
+  padding: 12px 24px;
+
   color: var(--primary-brand-color);
   background-color: var(--light-cloud-color);
   font-family: inherit;
@@ -332,6 +343,8 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   cursor: pointer;
 }
 
