@@ -42,7 +42,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .list {
@@ -364,7 +364,8 @@ img {
 }
 
 .portfolio-cards-item {
-  flex-basis: calc((100%-2 * 24px) / 3);
+  /* flex-basis: calc((100%-2 * 24px) / 3); */
+  width: 360px;
 }
 
 .portfolio-cards-link {
