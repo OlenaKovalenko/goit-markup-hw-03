@@ -53,6 +53,19 @@ img {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /**=============== COMPONENTS================== */
 
 .section {
@@ -218,19 +231,6 @@ img {
 
 /** ===============SECTION OUR ADVANTAGES =============*/
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 .advantages.section {
   padding-bottom: 0;
 }
@@ -239,10 +239,15 @@ img {
 }
 
 .advantages-list {
+  display: flex;
+  gap: 24px;
 }
 
 .advantages-item {
+  flex-basis: calc((100%-24 * 3) / 4);
 }
+
+/** ===============SECTION OUR WORK=============*/
 
 .work-list {
   display: flex;
