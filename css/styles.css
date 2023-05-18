@@ -254,6 +254,10 @@ img {
   gap: 24px;
 }
 
+.work-item {
+  flex-basis: calc((100%-2 * 24) / 3);
+}
+
 /**==============SECTION OUR TEAM =============*/
 
 .team {
