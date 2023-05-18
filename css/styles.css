@@ -112,6 +112,7 @@ img {
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
 .logotype {
