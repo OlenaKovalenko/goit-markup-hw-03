@@ -78,22 +78,24 @@ button {
 }
 
 .section-title {
+  margin-bottom: 72px;
+
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
-  margin-bottom: 72px;
 }
 
 .section-subtitle {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  margin-bottom: 8px;
 }
 
 .section-text {
@@ -340,13 +342,15 @@ button {
   letter-spacing: 0.04em;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid transparent;
 }
 
 /**================ GALLERY CARDS LIST======================= */
@@ -359,14 +363,13 @@ button {
 }
 
 .portfolio-cards-item {
-  /* flex-basis: calc((100%-2 * 24px) / 3); */
-  width: 360px;
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
-.portfolio-cards-link {
-  display: block;
-}
+.cards-wrappig {
+  padding: 32px 16px;
 
-.portfolio-cards-list img {
-  display: block;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  /* outline: 1px solid teal; */
 }
