@@ -245,10 +245,14 @@ button {
 }
 
 .advantages-item {
-  flex-basis: calc((100%-3 * 24px) / 4);
+  flex-basis: calc((100% -3 * 24px) / 4);
 }
 
 /** ===============SECTION OUR WORK=============*/
+
+.work {
+  padding-top: 0;
+}
 
 .work-list {
   display: flex;
@@ -256,7 +260,7 @@ button {
 }
 
 .work-item {
-  flex-basis: calc((100%-2 * 24px) / 3);
+  flex-basis: calc((100% -2 * 24px) / 3);
 }
 
 /**==============SECTION OUR TEAM =============*/
@@ -273,7 +277,7 @@ button {
 }
 
 .team-item {
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% -3 * 24px) / 4);
 
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
@@ -318,6 +322,8 @@ button {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+/* *================PORTFOLIO BUTTONS===============*/
 
 .portfolio-btn-list {
   display: flex;
